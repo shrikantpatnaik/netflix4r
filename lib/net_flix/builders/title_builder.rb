@@ -26,7 +26,7 @@ class TitleBuilder
     set_release_year
     set_title
     set_web_page
-    set_box_art
+    #set_box_art
     set_runtime
     set_mpaa_rating
     set_synopsis
