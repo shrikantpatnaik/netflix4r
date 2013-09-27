@@ -37,6 +37,11 @@ module NetFlix
         TitleBuilder.from_xml(data)
       end
 
+      def episodes(params)
+        data = NetFlix::API::Catalog::Titles.episodes(params[:url]+"/episodes")
+        EpisodeBuilder.from_xml(data)
+      end
+
     end
   end # class Title
 end # module NetFlix

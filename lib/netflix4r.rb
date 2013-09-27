@@ -27,3 +27,4 @@
  require 'net_flix/builders/actor_builder'
  require 'net_flix/builders/format_builder'
  require 'net_flix/builders/title_builder'
+ require 'net_flix/builders/episode_builder'
