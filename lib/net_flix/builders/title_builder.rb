@@ -19,7 +19,7 @@ class TitleBuilder
     @data = data
     @title = NetFlix::Title.new
 
-    set_actors
+    #set_actors
     set_delivery_formats
     set_genres
     set_id
@@ -27,9 +27,9 @@ class TitleBuilder
     set_title
     set_web_page
     #set_box_art
-    set_runtime
-    set_mpaa_rating
-    set_synopsis
+    #set_runtime
+    #set_mpaa_rating
+    #set_synopsis
   end
 
   def set_id
