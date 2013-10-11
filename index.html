@@ -3,53 +3,45 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Netflix4r by rossnelson</title>
+    <title>Netflix4r by shrikantpatnaik</title>
+
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/main.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
   </head>
   <body>
-
+    <div class="wrapper">
       <header>
         <h1>Netflix4r</h1>
         <p>a port of http://code.google.com/p/flix4r/</p>
+
+        <p class="view"><a href="https://github.com/shrikantpatnaik/netflix4r">View the Project on GitHub <small>shrikantpatnaik/netflix4r</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/shrikantpatnaik/netflix4r/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/shrikantpatnaik/netflix4r/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/shrikantpatnaik/netflix4r">View On <strong>GitHub</strong></a></li>
+        </ul>
       </header>
-
-      <div id="banner">
-        <span id="logo"></span>
-
-        <a href="https://github.com/rossnelson/netflix4r" class="button fork"><strong>View On GitHub</strong></a>
-        <div class="downloads">
-          <span>Downloads:</span>
-          <ul>
-            <li><a href="https://github.com/rossnelson/netflix4r/zipball/master" class="button">ZIP</a></li>
-            <li><a href="https://github.com/rossnelson/netflix4r/tarball/master" class="button">TAR</a></li>
-          </ul>
-        </div>
-      </div><!-- end banner -->
-
-    <div class="wrapper">
-      <nav>
-        <ul></ul>
-      </nav>
       <section>
-        <h1>netflix4r</h1>
+        <h1>
+<a name="netflix4r" class="anchor" href="#netflix4r"><span class="octicon octicon-link"></span></a>netflix4r</h1>
 
 <p>a ruby client for the NetFlix API </p>
 
 <p>Based on the "RESTful" resources provided by the NetFlix API, flix4r provides a clean, if <em>very</em> incomplete, set of models for accessing NetFlix' resources.</p>
 
-<h1>Credentials</h1>
+<h1>
+<a name="credentials" class="anchor" href="#credentials"><span class="octicon octicon-link"></span></a>Credentials</h1>
 
 <p>You must add your netflix credentials to flix4r/lib/credentials.yml. You can get credentials from <a href="http://developer.netflix.com/">http://developer.netflix.com/</a>.</p>
 
-<h1>Example</h1>
+<h1>
+<a name="example" class="anchor" href="#example"><span class="octicon octicon-link"></span></a>Example</h1>
 
 <pre><code>list = NetFlix::Title.search(term: 'sneakers', max_results: 2)
 [#&lt;NetFlix::Title:0x57f0f58 ...&gt;, #&lt;NetFlix::Title:0x57f0f58 ...&gt;] # shortened for readability
@@ -73,7 +65,8 @@ sneakers.actors
 ["Robert Redford", "Sidney Poitier", "Ben Kingsley", "Dan Aykroyd", "Mary McDonnell", "River Phoenix", "David Strathairn", "Donal Logue", "Timothy Busfield", "Eddie Jones", "George Hearn", "Lee Garlington", "Stephen Tobolowsky"]
 </code></pre>
 
-<h1>Contributing to netflix4r</h1>
+<h1>
+<a name="contributing-to-netflix4r" class="anchor" href="#contributing-to-netflix4r"><span class="octicon octicon-link"></span></a>Contributing to netflix4r</h1>
 
 <ul>
 <li>Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet</li>
@@ -83,17 +76,18 @@ sneakers.actors
 <li>Commit and push until you are happy with your contribution</li>
 <li>Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.</li>
 <li>Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.</li>
-</ul><h1>Copyright</h1>
+</ul><h1>
+<a name="copyright" class="anchor" href="#copyright"><span class="octicon octicon-link"></span></a>Copyright</h1>
 
 <p>Copyright (c) 2011 rossnelson. See LICENSE.txt for
 further details.</p>
       </section>
       <footer>
-        <p>Project maintained by <a href="https://github.com/rossnelson">rossnelson</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></small></p>
+        <p>This project is maintained by <a href="https://github.com/shrikantpatnaik">shrikantpatnaik</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    <script src="javascripts/scale.fix.js"></script>
     
   </body>
 </html>
